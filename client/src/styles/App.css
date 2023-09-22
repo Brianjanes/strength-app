@@ -84,6 +84,19 @@ App {
   height: 6rem;
   background-color: #2f4050;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 2rem;
+  flex: 90%;
+  text-align: center;
+}
+.header-icon-div {
+  flex: 10%;
+  text-align: center;
 }
 
 /* Sidebar */
