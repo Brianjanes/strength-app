@@ -14,6 +14,7 @@
 */
 * {
   margin: 0;
+  padding: 0;
 }
 /*
   Typographic tweaks!
@@ -62,6 +63,37 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 20px;
 }
 
 /* My Written CSS */
+/* ================================================================ */
+
+/* Main Layout for App */
+App {
+  width: 100vw;
+  height: 100vw;
+}
+
+/* Header */
+.header-main {
+  width: 100vw;
+  height: 100px;
+  background-color: red;
+}
+
+/* Sidebar */
+.sidebar-main {
+  height: 100%;
+  width: 100px;
+  background-color: blue;
+}
+
+/* Footer */
+.footer-main {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+}
