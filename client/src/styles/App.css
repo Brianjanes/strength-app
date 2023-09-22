@@ -74,13 +74,13 @@ h6 {
 
 /* Main Layout for App */
 App {
-  width: 100vw;
-  height: 100vh;
+  max-width: 100dvw;
+  max-height: 100dvh;
 }
 
 /* Header */
 .header-main {
-  width: 100vw;
+  width: 100%;
   height: 6rem;
   background-color: #2f4050;
   color: white;
@@ -88,7 +88,6 @@ App {
   justify-content: center;
   align-items: center;
 }
-
 .header-title {
   font-size: 2rem;
   flex: 90%;
@@ -101,7 +100,7 @@ App {
 
 /* Sidebar */
 .sidebar-main {
-  height: 100%;
+  height: min(100% - 6rem);
   width: 12rem;
   background-color: #2f4050;
   position: absolute;
