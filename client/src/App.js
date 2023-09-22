@@ -1,6 +1,5 @@
 import "./styles/App.css";
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import SideBar from "./Components/SideBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -12,7 +11,6 @@ const App = () => {
         <Header />
         <SideBar />
         <Routes></Routes>
-        <Footer />
       </div>
     </BrowserRouter>
   );
