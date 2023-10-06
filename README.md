@@ -9,3 +9,7 @@ busy day today - tenant moved out of house, getting ready to sell! some boilerpl
 # 22/09
 
 worked on the sidebar component mostly - took me a little while to figure out the CSS for making it span 100% height. It ended up being position: abdolute; in the sidebar-main component. This has laid the groundwork for the routes, and I also brought in BrowserRouter to help architect the layout for the main app component.
+
+# 06/10
+
+i've embarassingly not written anything for this in a few days between traveling and catching up on an AWS course and applying for jobs! i go to montreal this evening and when i get back on tuesday i will get going on this again.

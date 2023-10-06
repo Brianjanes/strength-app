@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# I don't know what this is but it keeps updating when I go to commit so, I'm ignoring it.
+.DS_Store
