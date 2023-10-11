@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Header from "./Components/Header";
 import SideBar from "./Components/SideBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Routes/Home.jsx";
 
 const App = () => {
   return (
@@ -10,7 +11,9 @@ const App = () => {
       <div className="App">
         <Header />
         <SideBar />
-        <Routes></Routes>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );

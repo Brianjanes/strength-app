@@ -13,3 +13,7 @@ worked on the sidebar component mostly - took me a little while to figure out th
 # 06/10
 
 i've embarassingly not written anything for this in a few days between traveling and catching up on an AWS course and applying for jobs! i go to montreal this evening and when i get back on tuesday i will get going on this again.
+
+# 11/10
+
+back working on this - got up early and started with auth0 integration. next i ill add context & build out some static pages.
