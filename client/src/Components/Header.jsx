@@ -4,10 +4,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 const Header = () => {
   return (
     <div className="header-main">
-      <div className="header-title">AI Strength Coach</div>
-      <div className="header-icon-div">
+      <div className="header-title">AI Strength Coach 🏋️</div>
+      {/* <div className="header-icon-div">
         <MenuIcon />
-      </div>
+      </div> */}
     </div>
   );
 };

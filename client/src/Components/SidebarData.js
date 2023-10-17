@@ -3,8 +3,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import SettingsIcon from "@mui/icons-material/Settings";
-import LogoutIcon from "@mui/icons-material/Logout";
 import InfoIcon from "@mui/icons-material/Info";
+import LogoutIcon from "@mui/icons-material/Logout";
 
 export const SidebarData = [
   {
@@ -33,9 +33,9 @@ export const SidebarData = [
     link: "/settings",
   },
 
-  {
-    title: "Logout",
-    icon: <LogoutIcon />,
-    link: "/Logout",
-  },
+  // {
+  //   title: "Logout",
+  //   icon: <LogoutIcon />,
+  //   link: "/Logout",
+  // },
 ];
