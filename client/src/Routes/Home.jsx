@@ -1,12 +1,28 @@
 import React from "react";
 import { Container, Box } from "@mui/material";
-import AuthButton from "../Auth/AuthButton";
 
 const Home = () => {
   return (
-    <Container>
-      heyooo000000000
-      <AuthButton />
+    <Container
+      fixed
+      maxWidth="xl"
+      sx={{
+        border: "1px solid red",
+        height: "100dvh",
+        marginLeft: 30,
+        marginTop: "1rem",
+      }}
+    >
+      <Box
+        sx={{
+          border: "1px solid red",
+          height: "100%",
+          marginInline: "2rem",
+          margin: "1rem",
+        }}
+      >
+        testing
+      </Box>
     </Container>
   );
 };
